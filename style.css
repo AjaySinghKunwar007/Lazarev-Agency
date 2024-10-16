@@ -220,9 +220,137 @@ nav button svg {
 }
 
 
-#page2 {
+
+#page2{
     height: 100vh;
     width: 100%;
     background-color: #111111;
+    position: relative;
+    padding: 0vw 10.3vw;
+    padding-bottom: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #333;
+}
+#page2-left{
+    height: 100%;
+    width: 40%;
+    /* background-color: #0CC05A; */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
+   padding: 3vw 0; 
+}
+#page2-left p{
+    font-size: 0.8vw;
+}
 
+#page2-left h5{
+    width: 75%;
+    font-size: 1.1vw;
+    font-weight: 400;
+}
+
+#page2-right{
+    height: 100%;
+    width: 50%;
+    /* background-color: #0CC05A; */
+    
+}
+.right-elem{
+position: relative;
+/* background-color: red; */
+padding-top: 2vw;
+padding-bottom: 5vw;
+border-top: 1px solid #333;
+transition: all ease 0.5s;
+}
+.right-elem:hover{
+    border-top: 1px solid white;
+}
+
+
+.right-elem h2{
+font-size: 1.4vw;
+font-weight: 500;
+}
+.right-elem img{
+    position: absolute;
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 0;
+    scale: 0;
+    
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #333;
+    position: relative;
+    background-image: url(https://web.archive.org/web/20240301063959im_/https://lazarev.kiev.ua/la24/reel-cover.webp);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page3-center{
+    /* background-color: rgb(240, 15, 15); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5vw;
+    padding: 1vw;
+    /* border-radius: 50px; */
+}
+.page3-center .icon {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.3vw;
+    border-radius: 50%;
+    height: 23vh;
+    width: 23vh;
+
+}
+
+.page3-center .icon i{
+    font-size: 2.8vw;
+    color: #111;
+}
+
+.page3-center h5{
+    font-size: 0.9vw;
+    padding: 15px 18px;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 750;
+    transition: all ease 0.7s;
+    opacity: 0;
+    transform: translateY(20%);
+}
+
+.page3-center:hover h5{
+    opacity: 1;
+    transform: translateY(0%);
+    
+}
+
+#page3 video{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    transform: scaleX(0.7) scaleY(0);
+    opacity: 0;
+    border-radius: 30px;
+    z-index: 999;
 }
