@@ -355,7 +355,7 @@ font-weight: 500;
     z-index: 999;
 }
 #page4{
-    height: 150vh;
+    height: 107vh;
     width: 100%;
     background-color: #ffffff;
     display: flex;
@@ -364,9 +364,10 @@ font-weight: 500;
     gap: 8vw;
     justify-content: space-between;
     padding: 22vh 22vh;
+    padding-bottom: 0;
 }
 #page4-left{
-    height: 80vh;
+    height: 50vh;
     width: 35%;
     background-color:rgb(255, 255, 255);
 }
@@ -376,7 +377,7 @@ font-weight: 500;
     color: #111;
 }
 #page4-right{
-    height: 80vh;
+    height: 50vh;
     width: 50%;
     background-color:rgb(255, 255, 255);
     display: flex;
@@ -396,7 +397,8 @@ font-weight: 500;
     color: #111;    
     font-size: 1.6vw ;
     /* text-transform: uppercase; */
-    font-weight: 520;    
+    font-weight: 520;   
+    margin-bottom: 5vw; 
 }
 #page4-right-bottom h5{
     font-size: 0.9vw ;
