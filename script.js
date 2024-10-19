@@ -102,7 +102,55 @@ function page3VideoAnimation(){
 
 }
 
+function page5Generate(){
+    const datas=[{
+        num:"$500M",
+        para:"In funding secured owning to our designs",
+        i : "/001"
+    }
+    ,{
+        num:"+1 million",
+        para:"Increase in customer base",
+        i : "/002"
+    }
+    ,{
+        num:"1 000 000+",
+        para:"Of active marketplace users",
+        i : "/003"
+    }
+    ,{
+        num:"25 million",
+        para:"Monthly E-commerce visits",
+        i : "/004"
+    }
+    ,{
+        num:"+300%",
+        para:"Increase in sign-up conversion rate",
+        i : "/005"
+    }
+    ,{
+        num:"+42%",
+        para:"Increase in the app’s retention rate",
+        i : "/006"
+    }
+];
+const page5= document.querySelector("#page5");
+datas.forEach((data)=>{
+    page5.innerHTML+=`
+    <div class="page5Box">
+          <h1>${data.num}</h1>
+          <p>${data.para}</p>
+          <h5>${data.i}</h5>
+        </div>
+    `;
+
+})
+
+
+}
 
 page3VideoAnimation()
 navAnimation()
 page2Animation();
+
+page5Generate();
